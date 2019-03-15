@@ -44,8 +44,8 @@ print(len(x_train))
 print(len(x_test))
 
 #Create Decision Tree Model
-from sklearn import tree
-model = tree.DecisionTreeClassifier()
+from sklearn.tree import DecisionTreeClassifier
+model = DecisionTreeClassifier()
 
 #Training Model
 model.fit(x_train, y_train)
